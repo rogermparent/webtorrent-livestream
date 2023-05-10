@@ -1,0 +1,50 @@
+{
+  "name": "webtorrent-gatsby",
+  "version": "1.0.0",
+  "private": true,
+  "description": "webtorrent-gatsby",
+  "author": "rogermparent",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@xstate/fsm": "^2.0.0",
+    "buffer": "^6.0.3",
+    "cache-storage-chunk-store": "^1.1.1",
+    "create-torrent": "^6.0.11",
+    "crypto-browserify": "^3.12.0",
+    "gatsby": "^5.9.0",
+    "gatsby-source-filesystem": "^5.9.0",
+    "https-browserify": "^1.0.0",
+    "muxjs": "^2.4.18",
+    "parse-torrent": "^11.0.8",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "stream-browserify": "^3.0.0",
+    "url": "^0.11.0",
+    "webtorrent": "^2.0.18",
+    "xstate": "^4.37.2"
+  },
+  "devDependencies": {
+    "@types/create-torrent": "^5.0.0",
+    "@types/node": "^20.1.0",
+    "@types/parse-torrent": "^5.8.4",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "@types/webtorrent": "^0.109.3",
+    "autoprefixer": "^10.4.14",
+    "path-browserify": "^1.0.1",
+    "readable-stream": "^4.3.0",
+    "stream-http": "^3.2.0",
+    "typescript": "^5.0.4"
+  }
+}

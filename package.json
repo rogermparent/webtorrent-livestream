@@ -1,0 +1,23 @@
+{
+  "name": "webtorrent-livestream",
+  "version": "0.0.1",
+  "description": "A set of minimal tools for creating webtorrent-powered livestreams",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "workspaces": [
+    "client",
+    "reader"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop-reader": "npm -w reader -- run develop",
+    "develop": "npm -w client -- run develop",
+    "build": "npm -w client -- run build",
+    "serve": "npm -w client -- run serve",
+    "clean": "npm -w client -- run clean"
+  },
+  "dependencies": {
+    "idb-chunk-store": "^1.0.1"
+  }
+}

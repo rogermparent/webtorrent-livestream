@@ -1,0 +1,29 @@
+.magnetIconContainer {
+  padding: 0 0.05rem;
+}
+
+.magnetIcon {
+  position: relative;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-color: gray;
+  margin: 0.1rem;
+}
+
+.magnetIconContents {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: green;
+}
+
+.video {
+  width: 100%;
+}
+
+.infoWindow {
+  overflow: auto;
+}
